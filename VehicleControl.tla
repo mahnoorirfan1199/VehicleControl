@@ -1,10 +1,9 @@
 ------------------------------ MODULE VehicleControl ------------------------------
 EXTENDS Integers, Sequences
 
-(* --variables-- *)
 VARIABLES
-  powerState,  \* Boolean: true if cruise control system is on, false otherwise
-  cruiseEnabled,  \* Boolean: true if cruise control is engaged, false otherwise
+  powerState,  \* true if cruise control system is on, false otherwise
+  cruiseEnabled,  \* true if cruise control is engaged, false otherwise
   currentSpeed,  \* The current speed of the vehicle
   cruiseSpeed,  \* The speed at which the cruise control tries to maintain the vehicle
   speedMemory  \* Memory for cruise speed when using resume functionality
