@@ -1,0 +1,204 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.18 of Day Month 20?? (rev: 6fb13e9)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 100 and seed 1805110056115647668 with 1 worker on 8 cores with 1788MB heap and 64MB offheap memory [pid: 24184] (Windows 11 10.0 amd64, Amazon.com Inc. 11.0.22 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file C:\Visual Studio Projects\CruiseControl\VehicleControl.tla (file:/c:/Visual%20Studio%20Projects/CruiseControl/VehicleControl.tla)
+Parsing file C:\Users\12487\AppData\Local\Temp\tlc-8232128744531201404\Integers.tla (jar:file:/C:/Users/12487/.vscode/extensions/alygin.vscode-tlaplus-nightly-2024.4.1706/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file C:\Users\12487\AppData\Local\Temp\tlc-8232128744531201404\Sequences.tla (jar:file:/C:/Users/12487/.vscode/extensions/alygin.vscode-tlaplus-nightly-2024.4.1706/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file C:\Users\12487\AppData\Local\Temp\tlc-8232128744531201404\Naturals.tla (jar:file:/C:/Users/12487/.vscode/extensions/alygin.vscode-tlaplus-nightly-2024.4.1706/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module VehicleControl
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-04-18 11:57:48)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 1 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2024-04-18 11:57:48.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2024-04-18 11:57:50: 226,135 states generated, 37,094 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the complete state space with 37094 total distinct states at (2024-04-18 11:57:50)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2024-04-18 11:57:50
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 3.8E-10
+  based on the actual fingerprints:  val = 1.0E-11
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-04-18 11:57:50
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 21, col 1 to line 21, col 4 of module VehicleControl>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 22, col 3 to line 26, col 20 of module VehicleControl: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<PowerControl line 29, col 1 to line 29, col 12 of module VehicleControl>: 9210:37094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 6 to line 30, col 30 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 6 to line 31, col 27 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 6 to line 32, col 56 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<SetCruise line 34, col 1 to line 34, col 9 of module VehicleControl>: 62:20332
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 6 to line 35, col 19 of module VehicleControl: 57426
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 35, col 7 to line 35, col 19 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 6 to line 36, col 26 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 6 to line 37, col 32 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 6 to line 38, col 32 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 6 to line 39, col 43 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<CancelCruise line 41, col 1 to line 41, col 12 of module VehicleControl>: 990:37094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 6 to line 42, col 27 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 6 to line 43, col 21 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 44, col 6 to line 44, col 54 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<ResumeCruise line 46, col 1 to line 46, col 12 of module VehicleControl>: 856:20332
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 6 to line 47, col 19 of module VehicleControl: 57426
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 47, col 7 to line 47, col 19 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 6 to line 48, col 31 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 6 to line 49, col 26 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 6 to line 50, col 56 of module VehicleControl: 20332
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<PressBrake line 52, col 1 to line 52, col 10 of module VehicleControl>: 0:37094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 53, col 6 to line 53, col 27 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 6 to line 54, col 21 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 6 to line 55, col 54 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<IncreaseSpeed line 57, col 1 to line 57, col 13 of module VehicleControl>: 18854:37094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 6 to line 58, col 75 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 58, col 21 to line 58, col 75 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 58, col 24 to line 58, col 45 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 58, col 52 to line 58, col 66 of module VehicleControl: 36970
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 6 to line 59, col 87 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 59, col 22 to line 59, col 87 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 59, col 25 to line 59, col 47 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 59, col 54 to line 59, col 69 of module VehicleControl: 33530
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 59, col 76 to line 59, col 87 of module VehicleControl: 3564
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 6 to line 60, col 57 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<DecreaseSpeed line 62, col 1 to line 62, col 13 of module VehicleControl>: 7121:37094
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 9 to line 63, col 24 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 11 to line 64, col 40 of module VehicleControl: 29900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 11 to line 65, col 36 of module VehicleControl: 7194
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 6 to line 66, col 71 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<TypeOk line 14, col 1 to line 14, col 6 of module VehicleControl>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 3 to line 19, col 27 of module VehicleControl: 37094
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2024-04-18 11:57:50: 226,135 states generated (4,156,893 s/min), 37,094 distinct states found (681,875 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+226135 states generated, 37094 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 58.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 2).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 3292ms at (2024-04-18 11:57:50)
+@!@!@ENDMSG 2186 @!@!@
