@@ -51,7 +51,9 @@ ResumeCruise ==
 PressBrake ==
   /\ cruiseEnabled' = FALSE
   /\ cruiseSpeed' = 0
-  /\ UNCHANGED <<powerState,speedMemory,currentSpeed>>
+  /\ currentSpeed' = currentSpeed - 10 \* Assume deceleration of 10 mph after pressing brake
+  /\ currentSpeed' >= 0 
+  /\ UNCHANGED <<powerState,speedMemory>>
 
 IncreaseSpeed ==
   /\ cruiseSpeed' = IF cruiseSpeed + 5 <= 150 THEN cruiseSpeed + 5 ELSE 150
